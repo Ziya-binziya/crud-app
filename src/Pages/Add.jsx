@@ -36,15 +36,15 @@ function Add() {
 
 
             <label htmlFor="name">Name:</label>
-            <input type="text" name='name' className='form-control' placeholder='enter name' onChange={(e) => { setName(e.target.value) }} />
+            <input type="text" name='name' className='form-control' required placeholder='enter name' onChange={(e) => { setName(e.target.value) }} />
 
 
             <label htmlFor="email">Email:</label>
-            <input type="email" name='email' className='form-control' placeholder='enter email' onChange={(e) => { setEmail(e.target.value) }} />
+            <input type="email" name='email' className='form-control' required placeholder='enter email' onChange={(e) => { setEmail(e.target.value) }} />
 
 
             <label htmlFor="contact">Contact:</label>
-            <input type="text" name='name' className='form-control' placeholder='enter contact' onChange={(e) => { setContact(e.target.value) }} />
+            <input type="text" name='name' className='form-control' required placeholder='enter contact' onChange={(e) => { setContact(e.target.value) }} />
             <br />
             <button className='btn btn-primary border shadow'>ADD</button>
           </form>
