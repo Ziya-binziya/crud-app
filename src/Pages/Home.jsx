@@ -22,10 +22,10 @@ function Home() {
   return (
     <>
 
-        <div className='p-5'>
+        <div className='w-100 p-5' >
       <h4 className='text-primary my-3'>USER DETAILS</h4>
         
-      <table className='table table-bordered table-dark border shadow'>
+      <table className='table table-bordered table-dark border shadow' >
       <thead>
         <tr>
                 <th>ID</th>
